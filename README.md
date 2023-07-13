@@ -1,4 +1,4 @@
-# EMANet
+[test_on_Dust_rainy.log](https://github.com/countytown/EMANet/files/12035445/test_on_Dust_rainy.log)# EMANet
 The changed evaluation code for comparison with EMANet
 
 ## Usage
@@ -10,5 +10,9 @@ Please train the model with dataset and strategies provided in <https://github.c
 <img src="https://user-images.githubusercontent.com/38877851/222956565-e42ae846-bb56-44f8-a186-ce1b18a89bc2.png" width="400">
 
 
-## Citation
-Coming soon~
+## DGOD Experiments
+[Uploading test_on_Dus[test_on_Night_rainy.log](https://github.com/countytown/EMANet/files/12035446/test_on_Night_rainy.log)[train.log](https://github.com/countytown/EMANet/files/12035449/train.log)
+[test_on_Night_sunny.log](https://github.com/countytown/EMANet/files/12035447/test_on_Night_sunny.log)
+t_rainy.log…]()
+
+
