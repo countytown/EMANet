@@ -110,13 +110,9 @@ def save_images(image, mask, image_file='0'):
     prediction.save(os.path.join('./outs_my', str(image_file)[2:-3] + '_mask.png'))
     print(prediction.size,'prediction')
 
-
-    # np_img = image.cpu().numpy()[0]
-    # cv2.imwrite(os.path.join('./outs', str(image_file) + '_ori.png'),np_img)
-    # save_image(image,os.path.join('./outs', str(image_file)[2:-3] + '_ori.png'))
-
-
-
+    np_img = image.cpu().numpy()[0]
+    cv2.imwrite(os.path.join('./outs', str(image_file) + '_ori.png'),np_img)
+    save_image(image,os.path.join('./outs', str(image_file)[2:-3] + '_ori.png'))
 
 def main(ckp_name='final.pth'):
     sess = Session(dt_split='val')
@@ -141,7 +137,6 @@ def main(ckp_name='final.pth'):
     logger.info('')
     for k, v in cls_iu.items():
         logger.info('%s-%f' % (k, v))
-
 
 if __name__ == '__main__':
     main()
